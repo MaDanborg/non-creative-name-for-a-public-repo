@@ -1,0 +1,573 @@
+"province","month","total_tourists"
+Albacete,1.0,9841
+Albacete,2.0,9331
+Albacete,3.0,11052
+Albacete,4.0,12746
+Albacete,5.0,12968
+Albacete,6.0,12543
+Albacete,7.0,17303
+Albacete,8.0,20573
+Albacete,9.0,16008
+Albacete,10.0,16168
+Albacete,11.0,11877
+Alicante/Alacant,1.0,289668
+Alicante/Alacant,2.0,257063
+Alicante/Alacant,3.0,358943
+Alicante/Alacant,4.0,468762
+Alicante/Alacant,5.0,532879
+Alicante/Alacant,6.0,540833
+Alicante/Alacant,7.0,711395
+Alicante/Alacant,8.0,812578
+Alicante/Alacant,9.0,618539
+Alicante/Alacant,10.0,597154
+Alicante/Alacant,11.0,364931
+Almería,1.0,41722
+Almería,2.0,42995
+Almería,3.0,47919
+Almería,4.0,61408
+Almería,5.0,71169
+Almería,6.0,71424
+Almería,7.0,97298
+Almería,8.0,121711
+Almería,9.0,88419
+Almería,10.0,87259
+Almería,11.0,55540
+Araba/Álava,1.0,25179
+Araba/Álava,2.0,23078
+Araba/Álava,3.0,26754
+Araba/Álava,4.0,30966
+Araba/Álava,5.0,33374
+Araba/Álava,6.0,31463
+Araba/Álava,7.0,55428
+Araba/Álava,8.0,59446
+Araba/Álava,9.0,37036
+Araba/Álava,10.0,38254
+Araba/Álava,11.0,28924
+Asturias,1.0,24767
+Asturias,2.0,23481
+Asturias,3.0,25685
+Asturias,4.0,34402
+Asturias,5.0,41496
+Asturias,6.0,43551
+Asturias,7.0,55967
+Asturias,8.0,83438
+Asturias,9.0,57251
+Asturias,10.0,48485
+Asturias,11.0,28472
+Ávila,1.0,3027
+Ávila,2.0,3494
+Ávila,3.0,3783
+Ávila,4.0,5993
+Ávila,5.0,6238
+Ávila,6.0,5424
+Ávila,7.0,8852
+Ávila,8.0,13534
+Ávila,9.0,8588
+Ávila,10.0,8453
+Ávila,11.0,4389
+Badajoz,1.0,24880
+Badajoz,2.0,31451
+Badajoz,3.0,36463
+Badajoz,4.0,46363
+Badajoz,5.0,35425
+Badajoz,6.0,41502
+Badajoz,7.0,67970
+Badajoz,8.0,92237
+Badajoz,9.0,67391
+Badajoz,10.0,68732
+Badajoz,11.0,52796
+"Balears, Illes",1.0,156003
+"Balears, Illes",2.0,182320
+"Balears, Illes",3.0,358257
+"Balears, Illes",4.0,1101841
+"Balears, Illes",5.0,1662382
+"Balears, Illes",6.0,1991387
+"Balears, Illes",7.0,2287816
+"Balears, Illes",8.0,2201001
+"Balears, Illes",9.0,1972957
+"Balears, Illes",10.0,1417327
+"Balears, Illes",11.0,270291
+Barcelona,1.0,628950
+Barcelona,2.0,623856
+Barcelona,3.0,823410
+Barcelona,4.0,939144
+Barcelona,5.0,1076745
+Barcelona,6.0,1052668
+Barcelona,7.0,1197859
+Barcelona,8.0,1063638
+Barcelona,9.0,1113649
+Barcelona,10.0,1126729
+Barcelona,11.0,804226
+Bizkaia,1.0,34204
+Bizkaia,2.0,33054
+Bizkaia,3.0,40184
+Bizkaia,4.0,50099
+Bizkaia,5.0,63886
+Bizkaia,6.0,60478
+Bizkaia,7.0,83659
+Bizkaia,8.0,93290
+Bizkaia,9.0,79473
+Bizkaia,10.0,74809
+Bizkaia,11.0,46236
+Burgos,1.0,28224
+Burgos,2.0,23002
+Burgos,3.0,28281
+Burgos,4.0,37017
+Burgos,5.0,38680
+Burgos,6.0,36860
+Burgos,7.0,76254
+Burgos,8.0,100624
+Burgos,9.0,45975
+Burgos,10.0,42750
+Burgos,11.0,28223
+Cáceres,1.0,12490
+Cáceres,2.0,14331
+Cáceres,3.0,17603
+Cáceres,4.0,25894
+Cáceres,5.0,22002
+Cáceres,6.0,20810
+Cáceres,7.0,31597
+Cáceres,8.0,49537
+Cáceres,9.0,30166
+Cáceres,10.0,31514
+Cáceres,11.0,22328
+Cádiz,1.0,97425
+Cádiz,2.0,87421
+Cádiz,3.0,115094
+Cádiz,4.0,150543
+Cádiz,5.0,176638
+Cádiz,6.0,153315
+Cádiz,7.0,201000
+Cádiz,8.0,250101
+Cádiz,9.0,185975
+Cádiz,10.0,192550
+Cádiz,11.0,130471
+Cantabria,1.0,19029
+Cantabria,2.0,16935
+Cantabria,3.0,20588
+Cantabria,4.0,28832
+Cantabria,5.0,36715
+Cantabria,6.0,38495
+Cantabria,7.0,54041
+Cantabria,8.0,78280
+Cantabria,9.0,52929
+Cantabria,10.0,44290
+Cantabria,11.0,22702
+Castellón/Castelló,1.0,35004
+Castellón/Castelló,2.0,32319
+Castellón/Castelló,3.0,40639
+Castellón/Castelló,4.0,47622
+Castellón/Castelló,5.0,49596
+Castellón/Castelló,6.0,48211
+Castellón/Castelló,7.0,76777
+Castellón/Castelló,8.0,108686
+Castellón/Castelló,9.0,63697
+Castellón/Castelló,10.0,57269
+Castellón/Castelló,11.0,41496
+Ceuta,1.0,13270
+Ceuta,2.0,10370
+Ceuta,3.0,12400
+Ceuta,4.0,12651
+Ceuta,5.0,12440
+Ceuta,6.0,11152
+Ceuta,7.0,18605
+Ceuta,8.0,27615
+Ceuta,9.0,17494
+Ceuta,10.0,15446
+Ceuta,11.0,13392
+Ciudad Real,1.0,12408
+Ciudad Real,2.0,12971
+Ciudad Real,3.0,13606
+Ciudad Real,4.0,14366
+Ciudad Real,5.0,15906
+Ciudad Real,6.0,14958
+Ciudad Real,7.0,20986
+Ciudad Real,8.0,23193
+Ciudad Real,9.0,18732
+Ciudad Real,10.0,19455
+Ciudad Real,11.0,14721
+Córdoba,1.0,16336
+Córdoba,2.0,16641
+Córdoba,3.0,21141
+Córdoba,4.0,26845
+Córdoba,5.0,29713
+Córdoba,6.0,22755
+Córdoba,7.0,22855
+Córdoba,8.0,28072
+Córdoba,9.0,25782
+Córdoba,10.0,30752
+Córdoba,11.0,22197
+"Coruña, A",1.0,31383
+"Coruña, A",2.0,24795
+"Coruña, A",3.0,33639
+"Coruña, A",4.0,51093
+"Coruña, A",5.0,61539
+"Coruña, A",6.0,62245
+"Coruña, A",7.0,75923
+"Coruña, A",8.0,108735
+"Coruña, A",9.0,82177
+"Coruña, A",10.0,77529
+"Coruña, A",11.0,38221
+Cuenca,1.0,5796
+Cuenca,2.0,5097
+Cuenca,3.0,6115
+Cuenca,4.0,8296
+Cuenca,5.0,8949
+Cuenca,6.0,7792
+Cuenca,7.0,9730
+Cuenca,8.0,12981
+Cuenca,9.0,10278
+Cuenca,10.0,10541
+Cuenca,11.0,7333
+Gipuzkoa,1.0,77350
+Gipuzkoa,2.0,83668
+Gipuzkoa,3.0,99100
+Gipuzkoa,4.0,126801
+Gipuzkoa,5.0,141465
+Gipuzkoa,6.0,152219
+Gipuzkoa,7.0,227734
+Gipuzkoa,8.0,301693
+Gipuzkoa,9.0,179581
+Gipuzkoa,10.0,165257
+Gipuzkoa,11.0,106382
+Girona,1.0,168305
+Girona,2.0,155951
+Girona,3.0,190582
+Girona,4.0,308444
+Girona,5.0,413875
+Girona,6.0,390027
+Girona,7.0,752455
+Girona,8.0,819297
+Girona,9.0,580449
+Girona,10.0,462427
+Girona,11.0,252688
+Granada,1.0,58098
+Granada,2.0,54677
+Granada,3.0,67088
+Granada,4.0,85893
+Granada,5.0,89901
+Granada,6.0,77031
+Granada,7.0,91822
+Granada,8.0,118071
+Granada,9.0,93392
+Granada,10.0,99440
+Granada,11.0,68206
+Guadalajara,1.0,10480
+Guadalajara,2.0,10113
+Guadalajara,3.0,12709
+Guadalajara,4.0,14024
+Guadalajara,5.0,14518
+Guadalajara,6.0,15126
+Guadalajara,7.0,16727
+Guadalajara,8.0,18655
+Guadalajara,9.0,17063
+Guadalajara,10.0,18017
+Guadalajara,11.0,13492
+Huelva,1.0,25159
+Huelva,2.0,27509
+Huelva,3.0,35727
+Huelva,4.0,53523
+Huelva,5.0,48561
+Huelva,6.0,51187
+Huelva,7.0,68506
+Huelva,8.0,93409
+Huelva,9.0,76174
+Huelva,10.0,65040
+Huelva,11.0,40021
+Huesca,1.0,14600
+Huesca,2.0,20367
+Huesca,3.0,19575
+Huesca,4.0,26529
+Huesca,5.0,40765
+Huesca,6.0,30508
+Huesca,7.0,56820
+Huesca,8.0,88090
+Huesca,9.0,48352
+Huesca,10.0,35749
+Huesca,11.0,18713
+Jaén,1.0,9719
+Jaén,2.0,9646
+Jaén,3.0,11509
+Jaén,4.0,13797
+Jaén,5.0,14354
+Jaén,6.0,13041
+Jaén,7.0,18284
+Jaén,8.0,23160
+Jaén,9.0,16309
+Jaén,10.0,17654
+Jaén,11.0,13622
+León,1.0,8867
+León,2.0,8530
+León,3.0,9668
+León,4.0,15884
+León,5.0,16466
+León,6.0,16472
+León,7.0,19797
+León,8.0,36757
+León,9.0,20195
+León,10.0,18434
+León,11.0,10896
+Lleida,1.0,36528
+Lleida,2.0,45654
+Lleida,3.0,45764
+Lleida,4.0,39736
+Lleida,5.0,46908
+Lleida,6.0,47917
+Lleida,7.0,78303
+Lleida,8.0,79906
+Lleida,9.0,72717
+Lleida,10.0,68069
+Lleida,11.0,48667
+Lugo,1.0,6347
+Lugo,2.0,6355
+Lugo,3.0,7536
+Lugo,4.0,11779
+Lugo,5.0,14815
+Lugo,6.0,14020
+Lugo,7.0,16452
+Lugo,8.0,22520
+Lugo,9.0,18059
+Lugo,10.0,17433
+Lugo,11.0,8885
+Madrid,1.0,476255
+Madrid,2.0,418783
+Madrid,3.0,564239
+Madrid,4.0,620153
+Madrid,5.0,628890
+Madrid,6.0,614717
+Madrid,7.0,660976
+Madrid,8.0,581123
+Madrid,9.0,682063
+Madrid,10.0,754898
+Madrid,11.0,608338
+Málaga,1.0,297438
+Málaga,2.0,270272
+Málaga,3.0,369013
+Málaga,4.0,532067
+Málaga,5.0,601023
+Málaga,6.0,598213
+Málaga,7.0,734476
+Málaga,8.0,803644
+Málaga,9.0,661130
+Málaga,10.0,631898
+Málaga,11.0,380078
+Melilla,1.0,12648
+Melilla,2.0,8608
+Melilla,3.0,11450
+Melilla,4.0,9408
+Melilla,5.0,9198
+Melilla,6.0,7870
+Melilla,7.0,23592
+Melilla,8.0,44941
+Melilla,9.0,21894
+Melilla,10.0,15450
+Melilla,11.0,11912
+Murcia,1.0,63390
+Murcia,2.0,64343
+Murcia,3.0,66238
+Murcia,4.0,88209
+Murcia,5.0,87470
+Murcia,6.0,86724
+Murcia,7.0,113640
+Murcia,8.0,143501
+Murcia,9.0,109162
+Murcia,10.0,110949
+Murcia,11.0,72530
+Navarra,1.0,36424
+Navarra,2.0,38300
+Navarra,3.0,45060
+Navarra,4.0,57901
+Navarra,5.0,75604
+Navarra,6.0,66071
+Navarra,7.0,127866
+Navarra,8.0,139463
+Navarra,9.0,108321
+Navarra,10.0,96785
+Navarra,11.0,66044
+Ourense,1.0,18648
+Ourense,2.0,20697
+Ourense,3.0,21325
+Ourense,4.0,29768
+Ourense,5.0,22598
+Ourense,6.0,27542
+Ourense,7.0,50986
+Ourense,8.0,93097
+Ourense,9.0,53372
+Ourense,10.0,46355
+Ourense,11.0,33677
+Palencia,1.0,8436
+Palencia,2.0,6563
+Palencia,3.0,7573
+Palencia,4.0,10908
+Palencia,5.0,10598
+Palencia,6.0,10128
+Palencia,7.0,17901
+Palencia,8.0,29629
+Palencia,9.0,13379
+Palencia,10.0,11904
+Palencia,11.0,7541
+"Palmas, Las",1.0,685528
+"Palmas, Las",2.0,683698
+"Palmas, Las",3.0,724551
+"Palmas, Las",4.0,661137
+"Palmas, Las",5.0,550331
+"Palmas, Las",6.0,564821
+"Palmas, Las",7.0,625698
+"Palmas, Las",8.0,631482
+"Palmas, Las",9.0,593594
+"Palmas, Las",10.0,724189
+"Palmas, Las",11.0,721765
+Pontevedra,1.0,48774
+Pontevedra,2.0,37893
+Pontevedra,3.0,43932
+Pontevedra,4.0,63906
+Pontevedra,5.0,68845
+Pontevedra,6.0,73051
+Pontevedra,7.0,103422
+Pontevedra,8.0,165030
+Pontevedra,9.0,108272
+Pontevedra,10.0,88735
+Pontevedra,11.0,54107
+"Rioja, La",1.0,8234
+"Rioja, La",2.0,7681
+"Rioja, La",3.0,9093
+"Rioja, La",4.0,11271
+"Rioja, La",5.0,14081
+"Rioja, La",6.0,12984
+"Rioja, La",7.0,13815
+"Rioja, La",8.0,17478
+"Rioja, La",9.0,16545
+"Rioja, La",10.0,15701
+"Rioja, La",11.0,10308
+Salamanca,1.0,23850
+Salamanca,2.0,28999
+Salamanca,3.0,32882
+Salamanca,4.0,43244
+Salamanca,5.0,41078
+Salamanca,6.0,41886
+Salamanca,7.0,59361
+Salamanca,8.0,105750
+Salamanca,9.0,51868
+Salamanca,10.0,51306
+Salamanca,11.0,33943
+Santa Cruz de Tenerife,1.0,473915
+Santa Cruz de Tenerife,2.0,484856
+Santa Cruz de Tenerife,3.0,520324
+Santa Cruz de Tenerife,4.0,474390
+Santa Cruz de Tenerife,5.0,389127
+Santa Cruz de Tenerife,6.0,385642
+Santa Cruz de Tenerife,7.0,427499
+Santa Cruz de Tenerife,8.0,430132
+Santa Cruz de Tenerife,9.0,403149
+Santa Cruz de Tenerife,10.0,492786
+Santa Cruz de Tenerife,11.0,514420
+Segovia,1.0,5550
+Segovia,2.0,5324
+Segovia,3.0,7056
+Segovia,4.0,9437
+Segovia,5.0,9722
+Segovia,6.0,9122
+Segovia,7.0,11989
+Segovia,8.0,15283
+Segovia,9.0,12660
+Segovia,10.0,13277
+Segovia,11.0,8507
+Sevilla,1.0,93469
+Sevilla,2.0,94398
+Sevilla,3.0,125087
+Sevilla,4.0,142913
+Sevilla,5.0,144685
+Sevilla,6.0,123869
+Sevilla,7.0,118646
+Sevilla,8.0,131601
+Sevilla,9.0,140121
+Sevilla,10.0,168956
+Sevilla,11.0,122723
+Soria,1.0,4607
+Soria,2.0,5097
+Soria,3.0,6098
+Soria,4.0,8170
+Soria,5.0,8474
+Soria,6.0,8266
+Soria,7.0,9779
+Soria,8.0,11863
+Soria,9.0,9708
+Soria,10.0,10923
+Soria,11.0,7876
+Tarragona,1.0,52066
+Tarragona,2.0,48399
+Tarragona,3.0,56704
+Tarragona,4.0,125883
+Tarragona,5.0,174286
+Tarragona,6.0,172884
+Tarragona,7.0,275132
+Tarragona,8.0,322594
+Tarragona,9.0,223912
+Tarragona,10.0,184617
+Tarragona,11.0,75624
+Teruel,1.0,3741
+Teruel,2.0,3833
+Teruel,3.0,5579
+Teruel,4.0,7244
+Teruel,5.0,7566
+Teruel,6.0,5855
+Teruel,7.0,7936
+Teruel,8.0,10671
+Teruel,9.0,8427
+Teruel,10.0,8575
+Teruel,11.0,5601
+Toledo,1.0,19047
+Toledo,2.0,17786
+Toledo,3.0,21256
+Toledo,4.0,24299
+Toledo,5.0,28303
+Toledo,6.0,26953
+Toledo,7.0,31631
+Toledo,8.0,37543
+Toledo,9.0,34841
+Toledo,10.0,34999
+Toledo,11.0,22830
+Valencia/València,1.0,143545
+Valencia/València,2.0,135477
+Valencia/València,3.0,193837
+Valencia/València,4.0,203111
+Valencia/València,5.0,225613
+Valencia/València,6.0,212445
+Valencia/València,7.0,260014
+Valencia/València,8.0,297473
+Valencia/València,9.0,253086
+Valencia/València,10.0,256883
+Valencia/València,11.0,192349
+Valladolid,1.0,18195
+Valladolid,2.0,14094
+Valladolid,3.0,17399
+Valladolid,4.0,20799
+Valladolid,5.0,23540
+Valladolid,6.0,20994
+Valladolid,7.0,33651
+Valladolid,8.0,42768
+Valladolid,9.0,28220
+Valladolid,10.0,29601
+Valladolid,11.0,19327
+Zamora,1.0,10979
+Zamora,2.0,10608
+Zamora,3.0,12900
+Zamora,4.0,19613
+Zamora,5.0,16006
+Zamora,6.0,17304
+Zamora,7.0,27762
+Zamora,8.0,47421
+Zamora,9.0,25048
+Zamora,10.0,23059
+Zamora,11.0,15828
+Zaragoza,1.0,32450
+Zaragoza,2.0,32687
+Zaragoza,3.0,39647
+Zaragoza,4.0,45067
+Zaragoza,5.0,52303
+Zaragoza,6.0,44515
+Zaragoza,7.0,51659
+Zaragoza,8.0,57321
+Zaragoza,9.0,50259
+Zaragoza,10.0,55892
+Zaragoza,11.0,42423
