@@ -105,6 +105,10 @@ app = dash.Dash(external_stylesheets=[dbc.themes.JOURNAL])
 server = app.server
 
 months = df_Spain['month'].unique().tolist() 
+province = df_Spain_provinces['province'].unique().tolist()
+
+radio = dcc.RadioItems(['Barcelona', 'Madrid', 'Málaga'], value = province, inline = True, style = {'paddingLeft': '30px', 'fontSize':14, 'textAlign':'center'})
+
 dropdown = dcc.Dropdown(['jan','feb','mar','apr','may','jun','jul','aug','sep']
                         , value=['jan','feb','mar','apr','may','jun','jul','aug','sep'] 
                         , clearable=True
@@ -140,14 +144,14 @@ app.layout = html.Div([html.H1("tourism thermometer"
                        html.Br(),
                        html.Br(),
                        html.Br(),
-                       html.Div([html.Div("now try and play around with the charts below. check how, by selecting different months, the average daily temperature changes - and so does number of international tourists in spanish provinces." 
+                       html.Div([html.Div("now try and play around with the charts below. check how, by selecting different months, the average daily temperature changes - and so does the number of international tourists in spanish provinces." 
                                 , style={'textAlign': 'justify', 'backgroundColor': 'indianred', 'color': 'white', 'border-radius': '15px', 
                                          'width': '1450px', 
                                          'padding': 25, 
                                          'fontSize': 17,
                                          'fontWeight' : 'bold',
-                                         'margin-left': 25}), dropdown, graph4, graph5,
-                                html.Div("is the warmest month the one that attracts more tourists? if you're looking for comfortable temperatures and less tourists to share spaces with, when would you go to málaga?" 
+                                         'margin-left': 25}), dropdown, graph4, radio, graph5,
+                                html.Div("here's some food for thought for you now: is the warmest month the one that attracts more tourists? if you're looking for comfortable temperatures and less tourists to share spaces with, when would you go to málaga?" 
                                 , style={'textAlign': 'justify', 'backgroundColor': 'indianred', 'color': 'white', 'border-radius': '15px', 
                                          'width': '1450px', 
                                          'padding': 25, 
@@ -156,14 +160,20 @@ app.layout = html.Div([html.H1("tourism thermometer"
                                          'margin-left': 25}),
                                 html.Br(),
                                 html.Br(),
-                                html.Br()])
+                                html.Br(),
+                                html.Div("dashboard app by marília borges", style={'textAlign':'center', 'fontSize':12.5, 'color':'slate'}),
+                                html.Div("data analysis and strategic market research", style={'textAlign':'center', 'fontSize':10, 'color':'slate'}),
+                                html.Div("berlin, january 2024", style={'textAlign':'center', 'fontSize':10, 'color':'slate'}),
+                                html.Br(),
+                                html.Br()        ])
                       ])
                   
-@callback(
+@app.callback(
     [Output(graph4, "figure"), 
-    Output(graph5, "figure")],
-    Input(dropdown, "value") 
-   )
+    Output(graph5, "figure", allow_duplicate=True)],
+    Input(dropdown, "value"),
+    prevent_initial_call='initial_duplicate'
+)
 
 def update_bar_chart(months):
     mask = df_Spain['month'].isin(months)
@@ -186,12 +196,34 @@ def update_bar_chart(months):
              barmode = 'group',
              text_auto ='.2s',
              labels = {'month':'month', 'total_tourists':'total inbound tourists'},
-             height=250)
+             height = 250)
     fig5.update_layout({
 'plot_bgcolor': 'rgba(0, 0, 0, 0)',
 'paper_bgcolor': 'rgba(0, 0, 0, 0)'})
 
     return fig4, fig5
+
+@app.callback(
+    Output(graph5, "figure"),
+    Input(radio, "value")
+     )
+
+def update_province(input):
+    mask3 = df_Spain_provinces['province'] == input
+    fig5 = px.bar(df_Spain_provinces[mask3], 
+             x='month', 
+             y='total_tourists',  
+             color = 'province',
+             color_discrete_map = {'Barcelona': '#c5165c', 'Madrid': 'LightCoral', 'Málaga': 'LightPink'},
+             barmode = 'group',
+             text_auto ='.2s',
+             labels = {'month':'month', 'total_tourists':'total inbound tourists'},
+             height = 250)
+    fig5.update_layout({
+'plot_bgcolor': 'rgba(0, 0, 0, 0)',
+'paper_bgcolor': 'rgba(0, 0, 0, 0)'})
+
+    return fig5
 
 if __name__ == '__main__':
      app.run_server(port = 9070)
