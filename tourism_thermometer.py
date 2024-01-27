@@ -141,6 +141,7 @@ app.layout = html.Div([html.H1("tourism thermometer"
                                          'fontSize': 17,
                                          'fontWeight' : 'bold',
                                          'margin-left': 25}), graph3]),
+                       html.Div("source: www.weatherapi.com", style = {'textAlign': 'right', 'fontSize': 12.5, 'color': 'slate'}),
                        html.Br(),
                        html.Br(),
                        html.Br(),
@@ -150,22 +151,29 @@ app.layout = html.Div([html.H1("tourism thermometer"
                                          'padding': 25, 
                                          'fontSize': 17,
                                          'fontWeight' : 'bold',
-                                         'margin-left': 25}), dropdown, graph4, radio, graph5,
-                                html.Div("here's some food for thought for you now: is the warmest month the one that attracts more tourists? if you're looking for comfortable temperatures and less tourists to share spaces with, when would you go to málaga?" 
-                                , style={'textAlign': 'justify', 'backgroundColor': 'indianred', 'color': 'white', 'border-radius': '15px', 
+                                         'margin-left': 25}), dropdown, graph4,
+                                         html.Div("source: www.weatherapi.com", style = {'textAlign': 'right', 'fontSize': 12.5, 'color': 'slate'}),
+                                         html.Br(),
+                                         html.Br(),
+                                         radio, graph5,
+                                         html.Div("source: ine.es", style = {'textAlign': 'right', 'fontSize': 12.5, 'color': 'slate'}),
+                                        html.Br(),
+                                        html.Br(),
+                                        html.Div("here's some food for thought for you now: is the warmest month the one that attracts more tourists? if you're looking for comfortable temperatures and less tourists to share spaces with, when would you go to málaga?" 
+                                         , style={'textAlign': 'justify', 'backgroundColor': 'indianred', 'color': 'white', 'border-radius': '15px', 
                                          'width': '1450px', 
                                          'padding': 25, 
                                          'fontSize': 17,
                                          'fontWeight' : 'bold',
                                          'margin-left': 25}),
-                                html.Br(),
-                                html.Br(),
-                                html.Br(),
-                                html.Div("dashboard app by marília borges", style={'textAlign':'center', 'fontSize':12.5, 'color':'slate'}),
-                                html.Div("data analysis and strategic market research", style={'textAlign':'center', 'fontSize':10, 'color':'slate'}),
-                                html.Div("berlin, january 2024", style={'textAlign':'center', 'fontSize':10, 'color':'slate'}),
-                                html.Br(),
-                                html.Br()        ])
+                                        html.Br(),
+                                        html.Br(),
+                                        html.Br(),
+                                        html.Div("dashboard app by marília borges", style={'textAlign':'center', 'fontSize':12.5, 'color':'slate'}),
+                                        html.Div("data analysis and strategic market research", style={'textAlign':'center', 'fontSize':10, 'color':'slate'}),
+                                        html.Div("berlin, january 2024", style={'textAlign':'center', 'fontSize':10, 'color':'slate'}),
+                                        html.Br(),
+                                        html.Br()        ])
                       ])
                   
 @app.callback(
