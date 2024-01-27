@@ -114,7 +114,7 @@ dropdown = dcc.Dropdown(['jan','feb','mar','apr','may','jun','jul','aug','sep']
                         , clearable=True
                         , multi=True
                         , placeholder="select a month"
-                        , style = {'padding': 5, 'margin-top': 40, "backgroundColor": "white", "color": "slate", 'margin-left': 12.5}
+                        , style = {'padding': 5, 'margin-top': 40, "backgroundColor": "white", "color": "slate", 'margin-left': 12.5, 'width': '1400px'}
                        )
 
 app.layout = html.Div([html.H1("tourism thermometer"
